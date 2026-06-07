@@ -1,36 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Hannoui Portfolio</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aiesyah Hannani | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Hi, I'm Aiesyah Hannani</h1>
-  <p>Computer Science Student | Web Development | AI | Data Analysis</p>
+  <!-- NAVBAR -->
+  <header>
+    <nav class="navbar">
+      <h2 class="logo">hannoui.</h2>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-  <h2>About Me</h2>
-  <p>
-    I am a Bachelor of Computer Science student interested in web development,
-    artificial intelligence, data analysis, and multimedia-based systems.
-  </p>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="intro">Hello, I’m</p>
+      <h1>Aiesyah Hannani</h1>
+      <h3>Computer Science Student</h3>
+      <p class="hero-text">
+        I am passionate about web development, data analysis, artificial intelligence,
+        and creating practical systems that solve real problems.
+      </p>
 
-  <h2>Projects</h2>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary-btn">View Projects</a>
+        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+      </div>
+    </div>
 
-  <h3>BinBuddy</h3>
-  <p>
-    A waste classification project that uses AI to detect and classify recyclable waste.
-  </p>
+    <div class="hero-card">
+      <div class="profile-circle">AH</div>
+      <h3>Aspiring Developer</h3>
+      <p>Web Development • AI • Data Analysis</p>
+    </div>
+  </section>
 
-  <h3>Brainiacs+</h3>
-  <p>
-    A Java-based tuition booking management system for student registration,
-    package selection, and receipt generation.
-  </p>
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">About Me</h2>
+    <div class="about-box">
+      <p>
+        I am a Bachelor of Computer Science student from UiTM with interests in
+        web development, artificial intelligence, data analysis, and multimedia-based
+        systems. I enjoy learning new technologies and building projects that combine
+        creativity, problem-solving, and real-world usefulness.
+      </p>
+    </div>
+  </section>
 
-  <h2>Contact</h2>
-  <p>Email: your-email@example.com</p>
+  <!-- SKILLS -->
+  <section id="skills" class="section">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills-container">
+      <div class="skill-card">
+        <h3>Programming</h3>
+        <p>Python, Java, HTML, CSS, JavaScript, PHP, SQL</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Tools</h3>
+        <p>VS Code, Jupyter Notebook, XAMPP, MySQL, GitHub, Canva</p>
+      </div>
+
+      <div class="skill-card">
+        <h3>Areas of Interest</h3>
+        <p>Web Development, Database, Data Analysis, AI, Machine Learning, UI Design</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-container">
+
+      <div class="project-card">
+        <span class="project-type">Final Year Project</span>
+        <h3>BinBuddy Waste Classification System</h3>
+        <p>
+          An AI-based project that detects and classifies recyclable waste using
+          deep learning models to support better waste management.
+        </p>
+        <div class="tags">
+          <span>Python</span>
+          <span>AI</span>
+          <span>YOLOv8</span>
+          <span>ResNet</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-type">Group Project</span>
+        <h3>Brainiacs+ Tuition Booking System</h3>
+        <p>
+          A Java-based object-oriented system that helps manage tuition registration,
+          package selection, subject selection, and receipt generation.
+        </p>
+        <div class="tags">
+          <span>Java</span>
+          <span>OOP</span>
+          <span>GUI</span>
+          <span>File Handling</span>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <span class="project-type">Web Project</span>
+        <h3>Cyber Rescue: Encrypt & Protect</h3>
+        <p>
+          An educational cybersecurity game designed to teach students about encryption,
+          digital safety, and problem-solving through interactive activities.
+        </p>
+        <div class="tags">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>JavaScript</span>
+          <span>Cybersecurity</span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section">
+    <h2 class="section-title">Experience & Activities</h2>
+
+    <div class="experience-box">
+      <div class="experience-item">
+        <h3>Program Committee / Majlis Tertinggi</h3>
+        <p>
+          Involved in organizing student programs, coordinating tasks, and supporting
+          event preparation and execution.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Emcee Experience</h3>
+        <p>
+          Experienced in hosting events, communicating with audiences, and managing
+          event flow professionally.
+        </p>
+      </div>
+
+      <div class="experience-item">
+        <h3>Workshop Facilitator</h3>
+        <p>
+          Assisted in guiding participants during workshop activities and helping them
+          understand tasks clearly.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section contact-section">
+    <h2 class="section-title">Contact Me</h2>
+    <p>
+      I am currently looking for internship opportunities related to web development,
+      data analysis, AI, or multimedia systems.
+    </p>
+
+    <div class="contact-links">
+      <a href="mailto:your-email@example.com">Email Me</a>
+      <a href="https://github.com/hannoui" target="_blank">GitHub</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Aiesyah Hannani. All Rights Reserved.</p>
+  </footer>
 
 </body>
 </html>
